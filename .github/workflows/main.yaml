@@ -21,7 +21,7 @@ jobs:
   controlar_calidad: 
     needs: probar
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: calidad
         run: echo "calidad"
 
