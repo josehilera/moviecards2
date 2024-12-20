@@ -51,4 +51,4 @@ jobs:
           app-name: 'moviecards-hilera3'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E0D82248B63140DA86699B3F8D37487D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02E802732F7F4E3C9FD02E7A349B87DA }}
