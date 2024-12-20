@@ -24,10 +24,10 @@ jobs:
           name: moviecards-java
           path: "${{ github.workspace }}/target/*.jar"
 
-test:
-  needs: build
-  runs-on: ubuntu-latest
-  steps:
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
     - name: Descargar repositorio
       uses: actions/checkout@v2
     - name: Instalar JDK 11
